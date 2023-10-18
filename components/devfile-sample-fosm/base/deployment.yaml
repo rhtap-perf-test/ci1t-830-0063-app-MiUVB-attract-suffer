@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-fosm
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0063-tenant/ci1t-830-0063-app/devfile-sample-fosm@sha256:ffa0506dfaedff5a7a9897d4a5694e5ab30ac53c214f3ecf0f4331c0cccebf6d
         name: my-nodejs
         ports:
         - containerPort: 3001
